@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* ---------- Page background ---------- */
+body {
+    background-color: #000000;
+    background-image: url("images/LOGO.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+/* ---------- Images ---------- */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+main>ul {
+    list-style: none;
+}
+
+main>ul>li {
+    flex-basis: 100%;
+    text-align: center;
+    background-color: rgba(50, 41, 41, 0.55);
+    backdrop-filter: blur(4px);
+}
+
+main>img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main>img:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 0 15px 3px #e63946;
+}
+
+/* ---------- Footer ---------- */
+.footer-content {
+    background-color: rgba(29, 29, 29, 0.55);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    backdrop-filter: blur(1px);
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+/******************** VW GOLF 8 GTI ********************/
+
+#golf-8-gti-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#golf-8-gti-front-side,
+#golf-8-gti-rear-side,
+#golf-8-gti-interior-1 {
+    width: 400px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+#golf-8-gti-interior-2 {
+    width: 400px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END VW GOLF 8 GTI ********************/
+
+/******************** 2020 BMW F82 M4 COMPETITION ********************/
+
+#bmw-f82-m4-competition-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#bmw-f82-m4-competition-front-side,
+#bmw-f82-m4-competition-rear-side,
+#bmw-f82-m4-competition-interior-1,
+#bmw-f82-m4-competition-interior-2 {
+    width: 400px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2020 BMW F82 M4 COMPETITION ********************/
+
+/******************** 2021 BMW G80 M3  ********************/
+
+#bmw-g80-m3-competition-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#bmw-g80-m3-competition-front-side,
+#bmw-g80-m3-competition-rear-side,
+#bmw-g80-m3-competition-interior-1,
+#bmw-g80-m3-competition-interior-2,
+#bmw-g80-m3-competition-interior-3,
+#bmw-g80-m3-competition-interior-4 {
+    width: 500px;
+    height: 350px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+
+/******************** END 2021 BMW G80 M3  ********************/
+
+/******************** 2022 FERRARI SF90 ********************/
+
+#ferrari-sf90-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#ferrari-sf90-front-side,
+#ferrari-sf90-rear-side,
+#ferrari-sf90-interior-1 {
+    width: 550px;
+    height: 400px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2022 FERRARI SF90 ********************/
+
+/******************** 2023 AUDI RS6 ABT ********************/
+
+#audi-rs6-abt-legacy-edition-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#audi-rs6-abt-legacy-edition-front-side,
+#audi-rs6-abt-legacy-edition-rear-side,
+#audi-rs6-abt-legacy-edition-interior-1,
+#audi-rs6-abt-legacy-edition-interior-2 {
+    width: 550px;
+    height: 400px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2023 AUDI RS6 ABT ********************/
+
+/******************** 2024 BMW M1000RR ********************/
+
+#bmw-m1000rr-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#bmw-m1000rr-front-side {
+    width: 400px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2024 BMW M1000RR ********************/
+
+/******************** 2024 BMW S1000RR ********************/
+
+#bmw-s1000rr-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#bmw-s1000rr-front-side {
+    width: 450px;
+    height: 350px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2024 BMW S1000RR ********************/
+
+/******************** 2024 GOLF 8R ********************/
+
+#golf-8r-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#golf-8r-front-side,
+#golf-8r-rear-side,
+#golf-8r-interior-1,
+#golf-8r-interior-2 {
+    width: 400px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2024 GOLF 8R ********************/
+
+/******************** 2024 LAMBORGHINI REVUELTO ********************/
+
+#lamborghini-revuelto-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#lamborghini-revuelto-front-side,
+#lamborghini-revuelto-rear-side,
+#lamborghini-revuelto-interior-1 {
+    width: 500px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2024 LAMBORGHINI REVUELTO ********************/
+
+/******************** 2026 BENTLEY BENTAYGA ********************/
+
+#bentley-bentayga-title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#bentley-bentayga-front-side,
+#bentley-bentayga-rear-side,
+#bentley-bentayga-interior-1,
+#bentley-bentayga-interior-2,
+#bentley-bentayga-interior-3,
+#bentley-bentayga-interior-4 {
+    width: 500px;
+    height: 300px;
+    padding: 9px;
+    border: 3px solid rgb(250, 0, 0);
+}
+
+/******************** END 2026 BENTLEY BENTAYGA ********************/
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+/* ---------- Navigation ---------- */
+.site-nav {
+    padding: 12px 24px;
+    text-align: right;
+}
+
+.site-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.site-nav a:hover {
+    color: #e63946;
+}
+
+.btn {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    background-color: #201f1f;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 12px 2px #e63946;
+}
+
+.btn-secondary {
+    background-color: transparent;
+}
+
+.btn-secondary:hover {
+    background-color: #e63946;
+}
